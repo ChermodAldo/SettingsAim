@@ -5,10 +5,6 @@ if [ "$AXERON" = false ]; then
     exit 1
 fi
 
-echo "Join and update SETTINGS AIM V7.0"
-sleep 2
-am start -a android.intent.action.VIEW -d https://whatsapp.com/channel/0029VaeRl4m1Xqucd9LGUT38/129 > /dev/null 2>&1 &
-exit 1
 print() {
     local text="$1"
     local len=${#text}
